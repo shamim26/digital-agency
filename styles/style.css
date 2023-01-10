@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* header styles */
+.btn-primary{
+    color: white;
+    background-color: orangered;
+    font-size: 14px;
+    font-weight: 500;
+    border:none;
+    border-radius: 3px;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+.btn-secondary{
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border:none;
+    border-radius: 3px;
+    padding: 10px 25px;
+}
+/* nav styles */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 15px 0;
+}
+.items{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+.nav-container .item{
+    list-style: none;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.items a:hover{
+    color: white;
+    background-color: orangered;
+}
+/* banner */
+.banner{
+    background-image: url(../asset/image/background.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.348);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+span{
+    color: orangered;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.742);
+    margin-bottom: 20px;
+}
+/* main section styles */
